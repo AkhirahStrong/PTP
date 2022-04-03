@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class PowerTable {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		
+		//Print out header fir table
+		System.out.println("Number     Squared       Cubed");
+		System.out.println("======     =======       =====");
+	}
+
+}

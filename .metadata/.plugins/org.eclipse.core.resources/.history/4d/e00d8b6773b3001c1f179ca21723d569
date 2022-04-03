@@ -1,0 +1,28 @@
+import java.util.Formatter;
+import java.util.Scanner;
+
+public class PowerTable {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		Formatter fmt = new Formatter();
+		int ntgr; 
+		
+		//Take input from user
+		System.out.println("Learn your squares and cubes!");
+		System.out.println("Enter an integer: ");
+		ntgr = scnr.nextInt();
+		
+		//Print out header fir table
+		fmt.format("%15s %15s %15s\n", "Number", "Square", "Cube");  
+		
+		System.out.println(Math.pow(ntgr, 2));
+		System.out.println(Math.pow(ntgr, 3));
+		
+		
+		
+		
+		scnr.close();
+	}
+
+}
